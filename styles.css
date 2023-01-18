@@ -9,7 +9,10 @@
 }
 
 body {
-    background-color: #E5E5E5;
+    background-image: url('./Assets/fundo.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
 }
 
 .container {
@@ -20,7 +23,7 @@ body {
 }
 
 header {
-    background-color: #1B83E2;
+    background-image: linear-gradient(45deg, #eead2d, red);
     height: 66px;
 }
 
@@ -38,7 +41,7 @@ main {
 
 label{
     font-size: 14px;
-    color: #777777;
+    color: black;
 }
 
 select {
@@ -75,7 +78,7 @@ button {
     height: 48px;
     left: 24px;
     top: 374px;
-    background: #1B83E2;
+    background-image: linear-gradient(45deg, #eead2d, red);
     border-radius: 25px;
     border: none;
     margin-top: 24px;
@@ -96,7 +99,7 @@ button:active {
 }
 
 section {
-    border: 1px solid #1B83E2;
+    border: 1px solid red;
     border-radius: 4px;
     text-align: center;
     padding: 12px;
@@ -108,11 +111,11 @@ section {
 
 .currency-name {
     font-size: 14px;
-    color: #777777;
+    color: black;
 }
 
 .currency-value {
-    color: #1B83E2;
+    color: red;
     font-size: 20px;
     font-weight: bold;
 }
