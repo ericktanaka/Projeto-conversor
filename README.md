@@ -1,5 +1,5 @@
 <h1>Projeto conversor</h1>
-<p>Projeto criado através das aulas do <a href="https://rodolfomori.com.br/devclub/">DevClub</a>.</p>
+<p>Projeto criado para converter a moeda real para dólar, euro e bitcoin</p>
 <br>
 <h2>Tecnologias utilizadas</h2>
 <p>- HTML</p>
